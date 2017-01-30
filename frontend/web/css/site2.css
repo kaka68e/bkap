@@ -1,0 +1,332 @@
+body{
+	font-family: "Open Sans";
+}
+
+
+/*Chỉnh cho mấy cái menu và shoppingCart ko bay nhẩy*/
+.sticky-header {
+	position: inherit;
+	border: none;
+}
+
+.top-cart-contain.sticky-topcart {
+	position: inherit;
+}
+
+/*Chỉnh Logo Creta ra giữa*/
+.logo-block {
+	text-align: left;
+}
+
+/*Chỉnh cái banner 4 cái giá , cam kết ..*/
+.our-features-box{
+	padding: 10px;
+}
+.our-features-box {
+   	background: #fff;
+}
+.our-features-box .feature-box h3{
+	color: #000;
+}
+.our-features-box .feature-box h6{
+	color: #000;
+}
+.our-features-box .feature-box span{
+	color: #000;
+	font-size: 20px;
+}
+
+/*// Chỉnh cái Menu ngang Header*/
+nav {
+	/*border-bottom: 1px solid #e5e5e5;*/
+	border: none;
+}
+#nav > li#nav-home {
+	background: none repeat scroll 0 0 #2ecc71;
+	text-align: left;
+}
+.search-btn-bg {
+	background: #bdc3c7;
+}
+
+/*Chỉnh lại cái menu ngang sang mau xanh kéo fluid luôn*/
+
+nav {
+	/*background-color:#2ecc71;*/
+}
+#nav {
+	background-color:#27ae60;
+}
+
+#nav > li > a {
+    color: #fff;
+}
+
+/*Chỉnh cái main-container cho sát cái nav*/
+.main-container {
+	margin-top: 15px;
+}
+
+/*Chỉnh nút giỏ hàng sang màu xanh cho đồng nhất*/
+/*.mini-cart .basket a {
+	background-color: #bdc3c7;
+}
+.mini-cart .basket a:before {
+	color: #bdc3c7;
+}*/
+
+.mini-cart .view-cart{
+	background: #27ae60 none repeat scroll 0 0;
+	border: 1px solid #27ae60;
+}
+
+.mini-cart .actions .btn-checkout {
+    background: #f1c40f none repeat scroll 0 0;
+    border: 1px solid #f1c40f;
+}
+.mini-cart .actions .btn-checkout:hover {
+    background: #f1c40f none repeat scroll 0 0;
+    border: 1px solid #f1c40f;
+}
+
+/*Chỉnh cái nút xem theo 1 sản phẩm hay nhiều sản phẩm trong listproduct*/
+.display-product-option span.button-active.button-grid {
+    background: #27ae60 url("../images/icon_grid_act.png") no-repeat scroll 9px 7px;
+}
+
+
+/*Chỉnh nút update trong form shoppingcart*/
+.fix_updata{
+	border: 1px solid #000;
+	float: right;
+}
+
+ /*chỉnh cái 2 cái ảnh chạy chạy giảm chiều cao*/
+ .owl-wrapper-outer{
+ 	/*height: 300px;*/
+ }
+
+ /*Chỉnh cái nút thanh toán trong form thanh toán hóa đơn sang màu xanh*/
+button .btn-proceed-checkout .thanh-toan{
+ 	background: #27ae60;
+ }
+
+button.button.btn-proceed-checkout {
+	background: #27ae60;
+}
+
+
+/*CSS form đăng nhập*/
+.account-login {
+    margin: 0px;
+}
+
+.account-login .col2-set .col-1 {
+	padding: 0px;
+}
+.account-login .col2-set .col-2 {
+	padding: 0px;
+}
+.account-login .form-list input.input-text  {
+    border: 1px solid #bdc3c7;
+}
+.account-login .form-list input.a1{
+    border: 1px solid #bdc3c7;
+    margin-bottom: 0px; 
+}
+.checkbox, .form-horizontal .checkbox {
+    padding-left: 20px;
+}
+
+.account-login .content {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/*CSS Form signup của khách hàng*/
+.page-title h1, .page-title h2.fix_h2  {
+    color: #555;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: none;
+}
+.fa-pencil,.fa-spinner,.fa-check-square{
+	color: #27ae60;
+}
+
+/*Chỉnh cái form danh sách yêu thích của khách hàng*/
+#wishlist-table button.button.btn-cart {
+
+     margin: 0 0 0px !important; 
+}
+
+
+/*Chỉnh cái switalert cho gọn lại*/
+.sweet-alert h2 {
+    color: #575757;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    margin: 25px 0 0px 0px;
+    padding: 0;
+    line-height: 40px;
+    display: block;
+}
+
+/*Chỉnh cái menu Sản phẩm phía trên */
+#nav > li:hover > a, .vertnav-top li > a:hover {
+    color: #f1c40f;
+}
+.mega-menu:hover {
+    /*background-color: #f1c40f;*/
+}
+.nav-inner #nav li.mega-menu .level0-wrapper {
+     border-top: none; 
+}
+
+
+
+/*Chỉnh cái thẻ a của menu bên trái phần danh mục sản phẩm*/
+.box-category > ul > li > a{
+    color: #3498db;
+}
+
+.box-category > ul > li > a:hover{
+    color: #f1c40f;
+}
+
+
+
+/*Trang chi tiết sản phẩm*/
+
+.product-view .product-shop .price {
+    font-size: 16px;
+    color: #c0392b;
+    font-weight: bolder; 
+}
+.product-view .product-shop .old-price .price {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.product-view .product-name h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2c3e50;
+    font-size: 25px;
+}
+
+.product-view .product-shop .add-to-box .btn-cart {
+    font-size: 14px;
+}
+
+.product-view .product-shop .add-to-box .btn-cart .fix{
+    margin-left: 0px;
+}
+.product-view .product-shop .add-to-box button.button.btn-cart span {
+    font-size: 12px;
+}
+    /*cái nút còn hàng hay không*/
+.availability.in-stock {
+    top: -8px;
+}
+
+
+/*Cái hình ảnh trong  detail*/
+img#product-zoom {
+    border: 1px solid #bdc3c7;
+}
+
+
+/*Chỉnh cho cái tap đánh giá và nhận xét người dùng dịch lên 1 tý*/
+.product-tabs {
+    margin: 0px;
+}
+
+/*Chỉnh cho cái phần dưới của nút thêm vào trong hàng trong trang detail đẹp hơn*/
+.product-view .product-shop .add-to-box {
+    padding: 20px 0px 0px 0px; 
+    overflow: hidden;
+    text-align: left;
+    margin: 1px 0 0 0;
+    border-bottom: none;
+    margin-left: -10px; 
+}
+
+
+/*Cho phần đầu dịch sát lên 1 tý*/
+.main-container .col1-layout {
+    margin-top: 5px;
+}
+.product-view .short-description {
+    font-size: 13px;
+    padding: 10px 0px;
+    border-bottom: 1px #ddd dotted;
+}
+.product-view .short-description h2 {
+     margin-bottom: 0px; 
+}
+
+
+/*Chỉnh cho phần hover xuống của cái tài khoản của tôi ko bị màu xanh da trời*/
+#nav li.drop-menu:hover ul {
+    border-top: none;
+}
+
+
+
+
+
+/*Trang Post: chỉnh cái widget Post cho phông chữ phù hợp*/
+.popular-posts h4 a {
+    font-family: Arial;
+    color: #333;
+    font-size: 13px;
+}
+.blog_entry-title a {
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: none;
+    text-transform: uppercase;
+}
+.blog_entry-title {
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: none;
+    text-transform: uppercase;
+}
+#dasda{
+    color: red;
+}
+
+/*Chỉnh cái warring*/
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+

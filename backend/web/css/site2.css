@@ -1,0 +1,76 @@
+/*Thêm mới ở đây*/
+
+.breadcrumb > li + li::before {
+    color: #ccc;
+    content: "/ ";
+    padding: 0 5px;
+}
+.checkbox, .form-horizontal .checkbox {
+    padding-left: 20px;
+}
+
+
+/*Chỉnh cái menu điều hướng home/.../...*/
+.page-head .page-title {
+    display: inline-block;
+    float: left;
+    padding: 0px 0;
+}
+.breadcrumb {
+    background: 0 0;
+    padding: 10px 0px;
+    margin: 0;
+    color: #a7b2c0;
+}
+a.submit{
+    top:7px;
+}
+
+/*Logo*/
+.page-header .page-header-top .page-logo .logo-default {
+    margin: 19.5px 0 0;
+}
+
+
+/*Chỉnh màu thẻ h2 footer*/
+.page-prefooter a, .page-prefooter h2 {
+    color: #27ae60;
+}
+
+.page-prefooter {
+    background: #fff;
+    color: #000;
+}
+
+.page-prefooter .subscribe-form .btn {
+    height: 36px;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    background-color: #27ae60;
+}
+
+/*Nút submit*/
+.page-prefooter .subscribe-form .btn {
+    color: #fff;
+    border-color: #27ae60;
+}
+
+
+
+/*Chỉnh cái menu ngang phía trên*/
+
+.page-header .page-header-menu {
+    /*background: #27ae60;*/
+    /*color: #fff;*/
+}
+
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav>li>a, .page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav>li>a>i {
+    color: #ffffff;
+}
+
+
+/*CHỉnh active nút Trang chủ*/
+.actived1 {
+    background-color: #fff;
+    color: #000;
+}

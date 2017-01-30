@@ -1,0 +1,17 @@
+
+.login .content .rememberme {
+    margin-top: 0px;
+}
+.mt-checkbox{
+	padding-left: 20px;
+}
+.login {
+    background-image: url('app.jpg');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Chỉnh màu cái helpblock khi validate sinh ra*/
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .form-control-feedback, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #fff;
+}
